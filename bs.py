@@ -1,5 +1,5 @@
 import requests
-import bs4
+import bs
 import smtplib
 import os
 
@@ -23,7 +23,7 @@ res = requests.get(producturl, timeout=5)
 if res.status_code != 200:
     send_email()
 
-soup = bs4.BeautifulSoup(res.text,'html.parser')
+soup = bs.BeautifulSoup(res.text,'html.parser')
 
 elems = soup.select('#post-67 > div > div > header > h2')
 try:
