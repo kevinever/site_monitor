@@ -17,7 +17,7 @@ def send_email():
     s.quit()
 
 
-producturl=""
+producturl="www.google.com"
 
 res = requests.get(producturl, timeout=5)
 if res.status_code != 200:
