@@ -10,7 +10,8 @@ import pandas as pd
 
 EMAIL_ADDRESS = "kalisadoe@gmail.com"
 EMAIL_PASSWORD = "wozdspsvmljvrery"
-TO_ADDR = ['nyayihakevin@gmail.com','kalisadoe@gmail.com','gashemasteven89@gmail.com']
+TO_ADDR = ['nyayihakevin@gmail.com','kalisadoe@gmail.com']
+# 'gashemasteven89@gmail.com'
 
 def sendmail():
      s =    smtplib.SMTP('smtp.gmail.com',587)
@@ -33,6 +34,9 @@ for index,websites in df.iterrows():
         status = response.status_code
         df.at[index,'status_code'] = f'website is still on status code is {status}'
         # print(response.status_code)
+        if df.isnull() == True:
+            df.at[index,'status_code'] = f'website is still on status code is {status}'
+            
         if response.status_code == 200:
             sendmail()
         # elif response.status_code == NAN:
