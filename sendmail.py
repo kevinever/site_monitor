@@ -7,7 +7,7 @@ import imghdr
 # defining addresses with token
 
 EMAIL_ADDRESS = "kalisadoe@gmail.com"
-EMAIL_PASSWORD = "drmpovaameczbgot"
+EMAIL_PASSWORD = "wozdspsvmljvrery"
 TO_ADDR = ['nyayihakevin@gmail.com','kalisadoe@gmail.com','gashemasteven89@gmail.com']
 
 # accessing websites 
