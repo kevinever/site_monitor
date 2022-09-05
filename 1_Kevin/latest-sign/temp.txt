@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="https://www.risa.rw/">
+<link rel="shortcut icon" href="/fileadmin/user_upload/favicon.ico" type="image/x-icon">
+<title>Rwanda Information Society Authority (RISA): Home</title>
+<meta name="generator" content="TYPO3 CMS">
+
+
+<link rel="stylesheet" type="text/css" href="typo3temp/assets/css/d42b6e1bdf.css?1596446348" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/bootstrap.min.css?1549632772" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/font-awesome.min.css?1535466926" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/slick.css?1535466932" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/slick-theme.css?1535466912" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/jquery.videobackground.css?1535466920" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/jquery.fancybox.css?1535466926" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/animate.css?1535466924" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/style.css?1569406509" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/css3.css?1535466928" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/site_config/Resources/Public/assets/css/theme-orange.css?1535466906" media="all">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CPT+Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/Basic.css?1525690080" media="all">
+
+
+
+
+
+
+
+
+					<link rel="next" href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2&amp;cHash=dd510cfba2fe3458fbff5f806339d05f" />
+				
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+
+
+
+<header id="header" class="navbar-fixed-top">
+			<div class="top-header">
+				<div class="container">
+					<a class="navbar-brand page-scroll" href="#home">
+						<img src="typo3conf/ext/site_config/Resources/Public/assets/images/risalogo.jpg" alt="">
+					</a>
+					<div class="searchform hidden-xs has-validation-callback">
+						<a href="https://mail.risa.gov.rw:8443/" target="_blank"><label>Webmail</label></a>
+						<form name="tx_indexedsearch" class="" action="index.php?id=18"  method="post">
+ <input type="hidden" name="id" value="18">
+              <div class="input-group">
+                  <input class="tx-indexedsearch-searchbox-sword sword xpbutton form-control search" id="ke_search_sword" name="tx_kesearch_pi1[sword]" onclick="this.value='';" value="search..." alt="Search" id="mod_search_searchword" type="text">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" value="Search" onclick="this.form.searchword.focus();" type="submit"><i class="fa fa-search"></i></button>
+                  </span>
+                </div>
+                <input id="kesearchpagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="1">
+                <input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0">
+                <input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value="">
+                <input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="">
+            </form>
+					</div>	
+				</div>
+			</div>
+			<div class="navbar navbar-inverse">
+				<div class="container">
+					<div class="navbar-header">
+                                
+						<form name="tx_indexedsearch" class="navbar-header searchform hidden-sm hidden-md hidden-lg"  action="/index.php?id=12" method="post">
+							<div class="input-group">
+							  	<input class="tx-indexedsearch-searchbox-sword sword xpbutton form-control search" name="tx_indexedsearch[sword]" onclick="this.value='';" value="search..." alt="Search" id="mod_search_searchword" type="text">
+							    <span class="input-group-btn">
+							    	<button class="btn btn-default" value="Search" onclick="this.form.searchword.focus();" type="submit"><i class="fa fa-search"></i></button>
+							    </span>
+						    </div>
+						</form>
+						<button type="button" class="menu-button js-menu-button">
+							<em class="fa fa-angle-right arrow-animate"></em>
+							<em class="fa fa-reorder"></em>
+							<em class="fa fa-angle-left arrow-animate"></em>
+						</button>
+					</div>
+					<!-- Nav Start -->
+					<nav id="nav">
+						<ul class="nav-menu clearfix"><li><a class="page-scroll" href="#home">Home</a></li><li><a class="page-scroll" href="#aboutrisa">About RISA</a></li><li><a class="page-scroll" href="#whatwedo">What We Do</a></li><li><a class="page-scroll" href="#media">Media</a></li><li><a class="page-scroll" href="#publications">Publications</a></li><li><a class="page-scroll" href="#contactus">Contact Us</a></li></ul>
+						<ul class="social-icons">
+			            	<li class="facebook"><a href="https://www.facebook.com/RwandaInformation/" target="_blank" title="Facebook">Facebook</a></li>
+			              	<li class="twitter"><a href="http://www.twitter.com/RISARwanda" target="_blank" title="Twitter">Twitter</a></li>
+			              	<li class="flickr"><a href="https://www.flickr.com/photos/162879905@N07/" target="_blank" title="Flickr">Flickr</a></li>
+			            </ul>
+					</nav><!-- /Nav end -->
+				</div>
+			</div>
+		</header>
+
+<!-- =========================================
+        Banner Section
+        ========================================== -->
+    	  
+		<section id="home" class="banner-slider white-color text-center">
+			
+<div id="c44" class="frame frame-default frame-type-dce_dceuid4 frame-layout-0"><div class="dce"><div class="banner-img-slider"><div><div class="banner-thumb" style="background-image:url(uploads/tx_dce/Welcome_to_RISA_01.jpg);"></div></div><div><div class="banner-thumb" style="background-image:url(uploads/tx_dce/egovernment1_03.jpg);"></div></div><div><div class="banner-thumb" style="background-image:url(uploads/tx_dce/EducationPositiveImpact_02.jpg);"></div></div><div><div class="banner-thumb" style="background-image:url(uploads/tx_dce/RuralICT_01.jpg);"></div></div><div><div class="banner-thumb" style="background-image:url(uploads/tx_dce/ICTuse_02.jpg);"></div></div></div><div class="banner-layer"></div><div class="banner-text-wrapper"><div class="banner-text-slider"><div><div class="container"><div class="banner-text"><h1><p>Championing rwanda's digital transformation</p></h1></div></div></div><div><div class="container"><div class="banner-text"><h1><p>Connecting citizens to their governments</p></h1></div></div></div><div><div class="container"><div class="banner-text"><h1><p>ICT can lead to an improved student learning and better teaching methods.</p></h1></div></div></div><div><div class="container"><div class="banner-text"><h1><p>Its main mission is to bridge the digital divide in rural communities</p></h1></div></div></div><div><div class="container"><div class="banner-text"><h1><p>Driving Rwanda socio-economic transformation</p></h1></div></div></div></div></div></div></div>
+
+
+		</section>
+		<div class="annnouncment">
+			<div class="container">
+				<!--<div class="annnouncment-label">Alert<i class="fa fa-hand-o-right" aria-hidden="true"></i></div>-->
+				 <!--<marquee behavior="scroll" direction="left" scrollamount="2" scrolldelay="1" loop="infinite" onmouseover="this.stop();" onmouseout="this.start();">
+<div class="marqueeNews"><a href="fileadmin/user_upload/Jquery_vulnerability_copy.pdf">Jquery vulnerability</a>|<a href="fileadmin/user_upload/Drupal_CMS_advisory_1_.pdf">Drupal CMS advisory</a></div> </marquee>-->
+			</div>
+		</div>  
+		<section class="news-row text-center">
+			<div class="container">
+				<ul>
+					<li>
+						<a href="http://risa.rw/index.php?id=26">
+							<i class="fa fa-newspaper-o" aria-hidden="true"></i>
+							<strong>News</strong>
+							<span>Latest news</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://risa.rw/index.php?id=25">
+							<i class="fa fa-book" aria-hidden="true"></i>
+							<strong>Publications</strong>
+							<span>Documents </span>
+						</a>
+					</li>
+					<li>
+						<a href="http://risa.rw/index.php?id=24">
+							<i class="fa fa-suitcase" aria-hidden="true"></i>
+							<strong>Careers</strong>
+							<span>Job vacancies </span>
+						</a>
+					</li>
+                                     <li>
+						<a href="https://www.risa.rw/footer-menu/guidelines/">
+							<i class="fa fa-file-text" aria-hidden="true"></i>
+							<strong>GUIDELINES</strong>
+							<span>ICT related</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- Content Start -->
+		<div id="content">
+			<section class="section-block aboutrisa" id="aboutrisa"><div class="container"><div class="row"><div class="col-md-6 col-sm-6 col-xs-12"><div class="about-left about-block">
+<div id="c2" class="frame frame-default frame-type-text frame-layout-0"><header><div class="section-title"><h2 class="">
+				About RISA
+			</h2></div></header><blockquote><p>Rwanda Information Society Authority “RISA” is a government institution established in 2017, governed by the law N<sup>o</sup> 02/2017 of 18/02/2017.</p><p>RISA has the mission of digitizing the Rwandan society through an increased usage of ICT as a crosscutting enabler for the development of other sectors<strong> &quot;Championing Rwanda's Digital Transformation&quot;.</strong></p><p>RISA derives from the former IT department of Rwanda Development Board, RDB. Currently, it is an affiliated institution to the Ministry of ICT and Innovation.</p><p>RISA has been put in place to be at the forefront of all ICT projects’ implementation and streamline research, infrastructures and innovation within the ICT sector. Furthermore champions the implementation of <a href="fileadmin/user_upload/Others%20documents/SMART%20RWANDA%20MASTER%20PLAN%202015-2020.pdf">Smart Rwanda Master Plan</a> initiatives.</p><p>Rwanda Information Society Authority is headed by the Chief Executive Officer and two deputies: Government Chief Information Officer and Government Chief Innovation Officer.</p></blockquote></div>
+
+
+<div id="c3" class="frame frame-default frame-type-text frame-layout-0"><header><h3 class="">
+				Our Mandate
+			</h3></header><blockquote><p>Rwanda Information Society Authority has the mandate of planning and coordinating the implementation of national ICT for Development Agenda. In this perspective, RISA, in partnership with stakeholders and partners work to digitize government services and ensure easy access by the citizens.</p></blockquote></div>
+
+</div></div><div class="col-md-6 col-sm-6 col-xs-12"><div class="about-right about-block">
+<div id="c4" class="frame frame-default frame-type-text frame-layout-0"><header><h3 class="">
+				Our Objectives
+			</h3></header><blockquote><p>The main objectives of Rwanda Information Society Authority are as follows:</p><p><strong>-</strong> To implement national Information and Communication Technologies (ICT) policies and programs in order to fast-track socio-economic growth;</p><p><strong>-</strong> To implement strategies which expand the access and affordability of Information and Communication Technologies;</p><p><strong>-</strong> To accelerate community development through mainstreaming Information and Communication Technologies in national socio-economic sectors;</p><p><strong>-</strong> To prepare and coordinate programs that increase the required skills in the field of Information and Communication Technology in order to achieve a knowledge-based economy;</p><p><strong>-</strong> To strengthen programs on Information and Communication Technology innovation;</p><p><strong>- </strong>To coordinate the implementation of projects that deliver Information and Communication Technology services;</p><p><strong>- </strong>To cooperate and collaborate with other regional and international institutions with a similar mission.</p></blockquote></div>
+
+</div></div></div></div><div id="team" class="section-block team white-color"><div class="container"><div class="section-block-wrapper">
+<div id="c16" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title text-center"><h2 class="">
+				Management team
+			</h2></div></header></div>
+
+
+<div id="c17" class="frame frame-default frame-type-dce_dceuid1 frame-layout-0"><div class="dce"><div class="col-sm-3"><div class="thumbnail"><div class="thumb"><img src="uploads/tx_dce/csm_Innocent-Bagamba-Muhizi.png" alt=""></div><div class="caption"><span class="designation">CHIEF EXECUTIVE OFFICER (CEO)</span><h3>Innocent BAGAMBA MUHIZI</h3><div class="team-social-share"><ul><li><a href="mailto:info@risa.gov.rw" target="_blank"><em class="fa fa-envelope"></em></a></li><li><a href="http://www.twitter.com/RISARwanda" target="_blank"><em class="fa fa-twitter"></em></a></li><li><a href="https://www.linkedin.com/company/rwanda-information-society-authority/" target="_blank"><em class="fa fa-linkedin"></em></a></li></ul></div></div></div></div></div></div>
+
+
+<div id="c19" class="frame frame-default frame-type-dce_dceuid1 frame-layout-0"><div class="dce"><div class="col-sm-3"><div class="thumbnail"><div class="thumb"><img src="uploads/tx_dce/csm_4.jpg" alt=""></div><div class="caption"><span class="designation">GOVERNMENT CHIEF INFORMATION OFFICER (GCIO)</span><h3>Josephine NYIRANZEYIMANA</h3><div class="team-social-share"><ul><li><a href="mailto:info@risa.gov.rw" target="_blank"><em class="fa fa-envelope"></em></a></li><li><a href="http://www.twitter.com/RISARwanda" target="_blank"><em class="fa fa-twitter"></em></a></li><li><a href="https://www.linkedin.com/company/rwanda-information-society-authority/" target="_blank"><em class="fa fa-linkedin"></em></a></li></ul></div></div></div></div></div></div>
+
+
+<div id="c18" class="frame frame-default frame-type-dce_dceuid1 frame-layout-0"><div class="dce"><div class="col-sm-3"><div class="thumbnail"><div class="thumb"><img src="uploads/tx_dce/csm_Photo.png" alt=""></div><div class="caption"><span class="designation">GOVERNMENT CHIEF INNOVATION OFFICER (GCINO)</span><h3>Antoine SEBERA</h3><div class="team-social-share"><ul><li><a href="mailto:info@risa.gov.rw" target="_blank"><em class="fa fa-envelope"></em></a></li><li><a href="http://www.twitter.com/RISARwanda" target="_blank"><em class="fa fa-twitter"></em></a></li><li><a href="https://www.linkedin.com/company/rwanda-information-society-authority/" target="_blank"><em class="fa fa-linkedin"></em></a></li></ul></div></div></div></div></div></div>
+
+
+<div id="c80" class="frame frame-default frame-type-dce_dceuid1 frame-layout-0"><div class="dce"><div class="col-sm-3"><div class="thumbnail"><div class="thumb"><img src="uploads/tx_dce/Jane_Bateta_CFO.jpg" alt=""></div><div class="caption"><span class="designation">Chief Financial Officer (CFO)</span><h3>Jane BATETA</h3><div class="team-social-share"><ul><li><a href="mailto:info@risa.gov.rw" target="_blank"><em class="fa fa-envelope"></em></a></li><li><a href="http://www.twitter.com/RISARwanda" target="_blank"><em class="fa fa-twitter"></em></a></li><li><a href="https://www.linkedin.com/company/rwanda-information-society-authority/" target="_blank"><em class="fa fa-linkedin"></em></a></li></ul></div></div></div></div></div></div>
+
+</div></div></div><div id="work" class="section-block work"><div class="section-block-wrapper"><div class="container"><div class="work-gallery"><div class="container"><div class="row">
+<div id="c21" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title text-center"><h2 class="">
+				Partners
+			</h2></div></header></div>
+
+
+<div id="c25" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="http://minict.gov.rw/" target="_blank"><img src="uploads/tx_dce/logomyict_01.png" alt=""><div class="thumb-hover"><span class="img-caption">MINICT</span></div></a></div></div></div></div>
+
+
+<div id="c27" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="http://rdb.rw/" target="_blank"><img src="uploads/tx_dce/rdblogo.jpg" alt=""><div class="thumb-hover"><span class="img-caption">RDB</span></div></a></div></div></div></div>
+
+
+<div id="c28" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="http://rura.rw/" target="_blank"><img src="uploads/tx_dce/RURA-logo.png" alt=""><div class="thumb-hover"><span class="img-caption">RURA</span></div></a></div></div></div></div>
+
+
+<div id="c22" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="http://aos.rw/" target="_blank"><img src="uploads/tx_dce/AOS-logo.png" alt=""><div class="thumb-hover"><span class="img-caption">AOS</span></div></a></div></div></div></div>
+
+
+<div id="c23" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="http://bsc.rw/" target="_blank"><img src="uploads/tx_dce/BSC-logo.png" alt=""><div class="thumb-hover"><span class="img-caption">BSC</span></div></a></div></div></div></div>
+
+
+<div id="c24" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="https://www.itu.int/en/Pages/default.aspx" target="_blank"><img src="uploads/tx_dce/itu-logo.png" alt=""><div class="thumb-hover"><span class="img-caption">ITU</span></div></a></div></div></div></div>
+
+
+<div id="c26" class="frame frame-default frame-type-dce_dceuid2 frame-layout-0"><div class="dce"><div class="col-md-3 col-sm-6"><div class="img-thumbnail"><a href="http://www.psf.org.rw/" target="_blank"><img src="uploads/tx_dce/PSF-logo.png" alt=""><div class="thumb-hover"><span class="img-caption">PSF - FSP</span></div></a></div></div></div></div>
+
+</div></div></div></div></div></div></div></section><section class="section-block  clients white-color whatwedo " id="whatwedo"><div class="container">
+<div id="c6" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title text-center"><h2 class="">
+				What we do
+			</h2></div></header></div>
+
+<div class="client-slider">
+<div id="c30" class="frame frame-default frame-type-dce_dceuid3 frame-layout-0"><div class="dce"><div><div class="client-quote"><div class="bbs_list"><div class="news-img"><img src="uploads/tx_dce/home_risa_egov_01.jpg" alt="E-Gov"></div><h4>E-Gov</h4><p>E-government Defined as use of ICTs in public service delivery, RISA aims at promoting ICT as an enabler to bridge people (citizens, businesses and civil society) to the government in order to promote efficient and effective service delivery</p><a class="read-more" href="what-we-do/e-gov/">Read More</a></div></div></div></div></div>
+
+
+<div id="c31" class="frame frame-default frame-type-dce_dceuid3 frame-layout-0"><div class="dce"><div><div class="client-quote"><div class="bbs_list"><div class="news-img"><img src="uploads/tx_dce/ICT_as_enabler3.jpg" alt="ICT in Rural Area"></div><h4>ICT in Rural Area</h4><p>A series of five year national ICT Plans have been implemented since 2001. In 2001, the government adopted the National Information and Communication Infrastructure NICI-I) plan and policy</p><a class="read-more" href="what-we-do/ict-in-rural-areas/">Read More</a></div></div></div></div></div>
+
+
+<div id="c32" class="frame frame-default frame-type-dce_dceuid3 frame-layout-0"><div class="dce"><div><div class="client-quote"><div class="bbs_list"><div class="news-img"><img src="uploads/tx_dce/thumg_2.jpg" alt="ICT Service M&amp;E"></div><h4>ICT Service M&amp;E</h4><p>ICT can be used as an effective tool in monitoring and evaluation purposes. RISA developed some Technology tool /system to monitor and evaluate different cluster. The following projects fall under this category</p><a class="read-more" href="what-we-do/ict-services-and-me/">Read More</a></div></div></div></div></div>
+
+
+<div id="c33" class="frame frame-default frame-type-dce_dceuid3 frame-layout-0"><div class="dce"><div><div class="client-quote"><div class="bbs_list"><div class="news-img"><img src="uploads/tx_dce/IotEcosystem.jpg" alt="ICT  Innovation"></div><h4>ICT  Innovation</h4><p>Rwanda Information Society Authority (RISA) in collaboration with Inmarsat as part of its initiatives to develop the IoT ecosystem, support and empower the young entrepreneurs, accelerate and spur Smart City innovations</p><a class="read-more" href="what-we-do/ict-innovation/">Read More</a></div></div></div></div></div>
+
+</div></div></section><section class="section-block media" id="media"><div class="container"><div class="row"><div class="col-sm-8 col-xs-12">
+<div id="c8" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title"><h2 class="">
+				News and Events
+			</h2></div></header></div>
+
+
+<div id="c43" class="frame frame-default frame-type-list frame-layout-0"><div class="news"><!--TYPO3SEARCH_end--><div class="news-list-view" id="news-container-43"><div class="page-navigation"><p>
+				Page 1 of 6.
+			</p><ul class="pagination"><li class="active"><span>1</span></li><li><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2&amp;cHash=dd510cfba2fe3458fbff5f806339d05f">2</a></li><li><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=3&amp;cHash=f564c8766ea746de6499024823d859eb">3</a></li><li class="disabled"><span>…</span></li><li class="last"><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=6&amp;cHash=1bf17f4f3c37ca38c194a77554db25c2">6</a></li><li class="last next"><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2&amp;cHash=dd510cfba2fe3458fbff5f806339d05f">
+							Next
+						</a></li></ul></div><div class="news-clear"></div><!--
+	=====================
+		Partials/List/Item.html
+--><div class="row news-list-item"><div class="col-md-3"><a title="CORONA ACTION RWANDA awards grants to entrepreneurial initiatives in Rwanda that mitigate the socio-economic impact of covid19" href="news-detail/news/corona-action-rwanda-awards-grants-to-entrepreneurial-initiatives-in-rwanda-that-mitigate-the-socio/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=24863afc7ba96215b4f7d6e62cb19c37"><img class="img-responsive" src="fileadmin/_processed_/0/f/csm_coronaction_68cf5718af.png" width="300" height="224" alt="" /></a></div><div class="col-md-9 articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article"><h3 itemprop="headline"><a title="CORONA ACTION RWANDA awards grants to entrepreneurial initiatives in Rwanda that mitigate the socio-economic impact of covid19" href="news-detail/news/corona-action-rwanda-awards-grants-to-entrepreneurial-initiatives-in-rwanda-that-mitigate-the-socio/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=24863afc7ba96215b4f7d6e62cb19c37">
+				CORONA ACTION RWANDA awards grants to entrepreneurial initiatives in Rwanda that mitigate the socio-economic impact of covid19
+			</a></h3><div class="extra"><!-- author --><!-- date --><span class="glyphicon glyphicon-calendar"></span><time itemprop="datePublished" datetime="2020-06-17">
+		06/17/2020
+	</time><!-- category --></div><!-- teaser --><div class="lead" itemprop="description"><p>Jasiri, in partnership with the Rwandan Ministry of ICT and Innovation, Inkomoko, Westerwelle Foundation and the Norrsken Foundation launched CORONA...</p></div><a class="btn btn-default btn-read-more" title="CORONA ACTION RWANDA awards grants to entrepreneurial initiatives in Rwanda that mitigate the socio-economic impact of covid19" href="news-detail/news/corona-action-rwanda-awards-grants-to-entrepreneurial-initiatives-in-rwanda-that-mitigate-the-socio/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=24863afc7ba96215b4f7d6e62cb19c37">
+			Read more
+		</a></div></div><!--
+	=====================
+		Partials/List/Item.html
+--><div class="row news-list-item"><div class="col-md-3"><a title="Guidelines encouraging the public to exercise caution to avoid any further spread of the Covid-19" href="news-detail/news/guidelines-encouraging-the-public-to-exercise-caution-to-avoid-any-further-spread-of-the-covid-19-1/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=0a749d075b1ddd31d680462bd6c4dae8"><img class="img-responsive" src="fileadmin/_processed_/c/7/csm_covid19_website_3651c283de.jpeg" width="300" height="327" alt="" /></a></div><div class="col-md-9 articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article"><h3 itemprop="headline"><a title="Guidelines encouraging the public to exercise caution to avoid any further spread of the Covid-19" href="news-detail/news/guidelines-encouraging-the-public-to-exercise-caution-to-avoid-any-further-spread-of-the-covid-19-1/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=0a749d075b1ddd31d680462bd6c4dae8">
+				Guidelines encouraging the public to exercise caution to avoid any further spread of the Covid-19
+			</a></h3><div class="extra"><!-- author --><!-- date --><span class="glyphicon glyphicon-calendar"></span><time itemprop="datePublished" datetime="2020-06-03">
+		06/03/2020
+	</time><!-- category --></div><!-- teaser --><div class="lead" itemprop="description"><p>The Covid-19 pandemic has disrupted how we operate demanding swift action towards adapting to the new realities. It has also highlighted opportunities...</p></div><a class="btn btn-default btn-read-more" title="Guidelines encouraging the public to exercise caution to avoid any further spread of the Covid-19" href="news-detail/news/guidelines-encouraging-the-public-to-exercise-caution-to-avoid-any-further-spread-of-the-covid-19-1/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=0a749d075b1ddd31d680462bd6c4dae8">
+			Read more
+		</a></div></div><!--
+	=====================
+		Partials/List/Item.html
+--><div class="row news-list-item"><div class="col-md-3"><a title="INNOVATE4DisabilityInclusion Hackathon Application(Deadline 18th Semptember 2019) " href="news-detail/news/innovate4disabilityinclusion-hackathon-application-deadline-18th-semptember-2019/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=d832ab3e8b800fb6b3e42811f27b64aa"><img class="img-responsive" src="fileadmin/_processed_/e/3/csm_INNOVATE4DisabilityInclusion_Hackathon_23d04a3a8e.jpg" width="300" height="425" alt="" /></a></div><div class="col-md-9 articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article"><h3 itemprop="headline"><a title="INNOVATE4DisabilityInclusion Hackathon Application(Deadline 18th Semptember 2019) " href="news-detail/news/innovate4disabilityinclusion-hackathon-application-deadline-18th-semptember-2019/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=d832ab3e8b800fb6b3e42811f27b64aa">
+				INNOVATE4DisabilityInclusion Hackathon Application(Deadline 18th Semptember 2019) 
+			</a></h3><div class="extra"><!-- author --><!-- date --><span class="glyphicon glyphicon-calendar"></span><time itemprop="datePublished" datetime="2019-09-05">
+		09/05/2019
+	</time><!-- category --></div><!-- teaser --><div class="lead" itemprop="description"><p>The Rwanda Information Society Authority (RISA) in partnership with MINIYOUTH, the National Council of People with Disability (NCPD) with the support...</p></div><a class="btn btn-default btn-read-more" title="INNOVATE4DisabilityInclusion Hackathon Application(Deadline 18th Semptember 2019) " href="news-detail/news/innovate4disabilityinclusion-hackathon-application-deadline-18th-semptember-2019/?tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=d832ab3e8b800fb6b3e42811f27b64aa">
+			Read more
+		</a></div></div><div class="page-navigation"><p>
+				Page 1 of 6.
+			</p><ul class="pagination"><li class="active"><span>1</span></li><li><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2&amp;cHash=dd510cfba2fe3458fbff5f806339d05f">2</a></li><li><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=3&amp;cHash=f564c8766ea746de6499024823d859eb">3</a></li><li class="disabled"><span>…</span></li><li class="last"><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=6&amp;cHash=1bf17f4f3c37ca38c194a77554db25c2">6</a></li><li class="last next"><a href="home/?tx_news_pi1%5B%40widget_0%5D%5BcurrentPage%5D=2&amp;cHash=dd510cfba2fe3458fbff5f806339d05f">
+							Next
+						</a></li></ul></div><div class="news-clear"></div></div><!--TYPO3SEARCH_begin--></div></div>
+
+</div><div class="col-sm-4 col-xs-12">
+<div id="c9" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title"><h2 class="">
+				Twitter
+			</h2></div></header></div>
+
+
+<div id="c14" class="frame frame-default frame-type-html frame-layout-0"><div class="bbs_list twitter-bock"><a class="twitter-timeline"style="height:350px" href="https://twitter.com/RISARWANDA?ref_src=twsrc%5Etfw">Tweets by RISARWANDA</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div></div>
+
+</div></div></div></section><section class="section-block  clients white-color publications " id="publications"><div class="container">
+<div id="c10" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title text-center"><h2 class="">
+				Publications
+			</h2></div></header></div>
+
+<div class="row"><div class="col-sm-6 col-xs-12"><div class="white-block">
+<div id="c53" class="frame frame-default frame-type-list frame-layout-0"><header><h4 class="">
+				Useful documents
+			</h4></header><div class="tx-filelist"><table class="table table-striped table-condensed"><thead><tr><th>Filename</th><th class="text-right">Info</th><th>Modified</th></tr></thead><tbody><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Critical_Patches_Issued_for_Microsoft_Products_-_JUNE_2020_.pdf">
+            Alert: Critical Patches Issued for Microsoft Products June 2020
+            
+        </a></td><td class="text-right">534 KB</td><td>
+        17.06.2020 11:59
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__New_Ransomware_called_Tycoon_Targets_Education_and_Software_Sectors_.pdf">
+            Alert: New Ransomware called Tycoon Targets Education and Software Sectors
+            
+        </a></td><td class="text-right">480 KB</td><td>
+        11.06.2020 09:36
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert_-_Exim_MTA_Vulnerability__May_2020_.pdf">
+            Alert: Exim MTA Vulnerability May 2020
+            
+        </a></td><td class="text-right">457 KB</td><td>
+        11.06.2020 09:36
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__New_DNS_Vulnerability_Lets_Attackers_Launch_Large-Scale_DDoS_Attacks_.pdf">
+            Alert : New DNS Vulnerability Lets Attackers Launch Large-Scale DDoS Attacks
+            
+        </a></td><td class="text-right">175 KB</td><td>
+        02.06.2020 17:13
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Critical_Patches_Issued_for_Microsoft_Products_-_MARCH_2020_.pdf">
+            Alert: Critical Patches issued for Microsoft Products MARCH 2020
+            
+        </a></td><td class="text-right">559 KB</td><td>
+        13.03.2020 11:55
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/National_Cyber_Security_Strategic_Plan_Rwanda.pdf">
+            National Cyber Security Strategic Plan
+            
+        </a></td><td class="text-right">429 KB</td><td>
+        22.10.2019 10:16
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Law_establishing_the__NCSA.pdf">
+            Law establishing the NCSA
+            
+        </a></td><td class="text-right">476 KB</td><td>
+        22.10.2019 10:16
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/National_Cyber_Security_Policy_Rwanda.pdf">
+            National Cyber Security Policy
+            
+        </a></td><td class="text-right">862 KB</td><td>
+        22.10.2019 10:15
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Simple_Mail_Transfer_Protocol__SMTP__Open_Relay_Vulnerability_.pdf">
+            Alert:(Simple Mail Transfer Protocol (SMTP) Open Relay Vulnerability)
+            
+        </a></td><td class="text-right">484 KB</td><td>
+        01.10.2019 06:34
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/ICT_Implementation_Guidelines_for_GoR.pdf">
+            ICT Implementation Guidelines
+            
+        </a></td><td class="text-right">2 MB</td><td>
+        26.09.2019 09:18
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Data_Center_and_Cloud_Services_Directives.pdf">
+            Data Center and Cloud Services Directives
+            
+        </a></td><td class="text-right">3 MB</td><td>
+        26.09.2019 09:11
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Enterprise_Architecture_Blueprint_Development_Guidelines_for_GoR..pdf">
+            Enterprise Architecture Blueprint Development Guidelines
+            
+        </a></td><td class="text-right">3 MB</td><td>
+        26.09.2019 09:11
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Business_Continuity_Management_Guidelines_for_GoR.pdf">
+            Business Continuity Management Guidelines
+            
+        </a></td><td class="text-right">2 MB</td><td>
+        26.09.2019 09:11
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Foreword.pdf">
+            Foreword.pdf
+            
+        </a></td><td class="text-right">2 MB</td><td>
+        26.09.2019 09:07
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Critical_Patches_Issued_for_Microsoft_Products_-_SEPTEMBER_2019_.pdf">
+            Alert:Critical Patches Issued for Microsoft Products - SEPTEMBER 2019
+            
+        </a></td><td class="text-right">487 KB</td><td>
+        17.09.2019 12:19
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert_-_End-of-Support__EOS__Software_Report_List__2019_-_2020_.pdf">
+            Alert:End-of-Support (EOS) Software Report List (2019 - 2020)
+            
+        </a></td><td class="text-right">611 KB</td><td>
+        17.09.2019 12:19
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Oracle_Quarterly_Critical_Patches_-_JULY_16__2019_.pdf">
+            Alert__Oracle_Quarterly_Critical_Patches_-_JULY_16__2019_.pdf
+            
+        </a></td><td class="text-right">514 KB</td><td>
+        31.07.2019 07:50
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Critical_Patches_Issued_for_Microsoft_Products_-_JULY_2019_.pdf">
+            Alert__Critical_Patches_Issued_for_Microsoft_Products_-_JULY_2019_.pdf
+            
+        </a></td><td class="text-right">489 KB</td><td>
+        16.07.2019 09:41
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/EA_Blueprint_Development_Guidelines_for_GoR_Final.pdf">
+            Enterprise Architecture Blueprint Development Guidelines for GoR
+            
+        </a></td><td class="text-right">3 MB</td><td>
+        08.07.2019 11:50
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/ICT_Implementation_Guidelines_for_Government_Institutions___Final_May_2019_Commented.pdf">
+            ICT Implementation Guidelines for Government Institutions
+            
+        </a></td><td class="text-right">1 MB</td><td>
+        08.07.2019 11:50
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Remote_Desktop_Services_Remote_Code_Execution_Vulnerability_.pdf">
+            Alert__Remote_Desktop_Services_Remote_Code_Execution_Vulnerability_.pdf
+            
+        </a></td><td class="text-right">677 KB</td><td>
+        24.05.2019 10:58
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Directives_on_Cyber_Security_for_Network_and_Information_System.pdf">
+            Directives on Cyber Security for Network and Information System
+            
+        </a></td><td class="text-right">3 MB</td><td>
+        23.05.2019 08:35
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Security_Updates_issued_for_Microsoft_Products_-_May_2019_.pdf">
+            Alert (Security Updates issued for Microsoft Products - May 2019)
+            
+        </a></td><td class="text-right">492 KB</td><td>
+        20.05.2019 08:39
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Multiple_vulnerabilities_in_the_Google_Android_operating_system__OS__.pdf">
+            Alert:Multiple vulnerabilities in the Google Android operating system
+            
+        </a></td><td class="text-right">196 KB</td><td>
+        10.05.2019 09:14
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Apache_Tomcat_Security_Update_for_Remote_Code_Execution_Vulnerability__.pdf">
+            Alert:Apache Tomcat Security Update for Remote Code Execution Vulnerability
+            
+        </a></td><td class="text-right">211 KB</td><td>
+        10.05.2019 09:14
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Critical_Vulnerability_in_Oracle_WebLogic_.pdf">
+            Alert:Critical Vulnerability in Oracle WebLogic
+            
+        </a></td><td class="text-right">173 KB</td><td>
+        10.05.2019 09:14
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__End-of-Support__EOS__Software__Adobe__Cisco__Microsoft.__.pdf">
+            Alert (End-of-Support (EOS) Software (Adobe, Cisco, Microsoft.))
+            
+        </a></td><td class="text-right">783 KB</td><td>
+        02.04.2019 14:58
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Security_Updates_for_Mozilla_Firefox_.pdf">
+            Alert: Security Updates for Mozilla Firefox
+            
+        </a></td><td class="text-right">485 KB</td><td>
+        22.02.2019 09:10
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Security_Updates_for_Chrome_.pdf">
+            Alert: Security Updates for Chrome
+            
+        </a></td><td class="text-right">495 KB</td><td>
+        19.02.2019 17:11
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__A_Vulnerability_in_Microsoft_Exchange_.pdf">
+            Alert: A Vulnerability in Microsoft Exchange
+            
+        </a></td><td class="text-right">668 KB</td><td>
+        07.02.2019 19:08
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Multiple_Vulnerabilities_in_Cisco_Products_-20190130.pdf">
+            Alert:Multiple Vulnerabilities in Cisco Products(2019-01-30)
+            
+        </a></td><td class="text-right">526 KB</td><td>
+        04.02.2019 09:42
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Security_Updates_for_Microsoft_Products__-_20190129.pdf">
+            Alert:Security Updates for Microsoft Products(2019-01-29)
+            
+        </a></td><td class="text-right">732 KB</td><td>
+        04.02.2019 09:42
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/RISA_Organizational_Structure.pdf">
+            RISA Organizational Structure
+            
+        </a></td><td class="text-right">823 KB</td><td>
+        28.01.2019 08:14
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Adobe_Vulnerabilities_and_Patches_.pdf">
+            Alert: Adobe Vulnerabilities and Patches
+            
+        </a></td><td class="text-right">513 KB</td><td>
+        21.01.2019 15:14
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Alert__Microsoft_Windows_DNS_Servers_Vulnerabilities_.pdf">
+            Alert: Microsoft Windows DNS Servers Vulnerabilities
+            
+        </a></td><td class="text-right">592 KB</td><td>
+        21.01.2019 15:14
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Guideline_on_minimum_Bandwidth_for_Broadband_Internet_Connectivity_in_Rwanda.pdf">
+            Guideline on Minimum Bandwidth for Broadband Internet Connectivity in Rwanda
+            
+        </a></td><td class="text-right">7 MB</td><td>
+        26.11.2018 06:09
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/docx.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Samsam_ransomware_advisory.docx">
+            Samsam Ransomware Advisory
+            
+        </a></td><td class="text-right">200 KB</td><td>
+        05.11.2018 15:03
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Drupal_CMS_advisory.pdf">
+            Drupal CMS Advisory
+            
+        </a></td><td class="text-right">195 KB</td><td>
+        05.11.2018 13:45
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Cyber_Crimes_Law.pdf">
+            Cyber Crimes Law
+            
+        </a></td><td class="text-right">1 MB</td><td>
+        05.11.2018 13:45
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Drupal_vulnerability.pdf">
+            Drupal Vulnerability
+            
+        </a></td><td class="text-right">190 KB</td><td>
+        05.11.2018 13:45
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/Jquery_vulnerability.pdf">
+            Jquery Vulnerability
+            
+        </a></td><td class="text-right">130 KB</td><td>
+        05.11.2018 13:45
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/SMART%20RWANDA%20MASTER%20PLAN%202015-2020.pdf">
+            Smart Rwanda Master Plan 2015-2020
+            
+        </a></td><td class="text-right">10 MB</td><td>
+        17.08.2018 10:51
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/ICT%20SECTOR%20STRATEGIC%20PLAN%202018-2024.pdf">
+            ICT Sector Strategic Plan 2018-2024
+            
+        </a></td><td class="text-right">6 MB</td><td>
+        17.08.2018 10:50
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/xls.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/PROCUREMENT_PLAN_2017-2018_RISA.xls">
+             RISA Procurement Plan 2017-2018
+            
+        </a></td><td class="text-right">57 KB</td><td>
+        17.08.2018 10:48
+    </td></tr><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Others%20documents/RISA%20Law.pdf">
+            RISA Law
+            
+        </a></td><td class="text-right">1 MB</td><td>
+        10.08.2018 08:36
+    </td></tr></tbody></table></div></div>
+
+</div></div><div class="col-sm-6 col-xs-12"><div class="white-block">
+<div id="c40" class="frame frame-default frame-type-list frame-layout-0"><header><h4 class="">
+				Announcements
+			</h4></header><div class="tx-filelist"><table class="table table-striped table-condensed"><thead><tr><th>Filename</th><th class="text-right">Info</th><th>Modified</th></tr></thead><tbody><tr><td><img src="/typo3conf/ext/file_list/Resources/Public/Icons/Files/pdf.png" alt="" /><a href="fileadmin/user_upload/Announcements/INNOVATE4DisabilityInclusion_Hackathon.pdf">
+            INNOVATE4DisabilityInclusion Hackathon
+            
+        </a></td><td class="text-right">1 MB</td><td>
+        05.09.2019 09:14
+    </td></tr></tbody></table></div></div>
+
+</div></div></div></div></section><section class="section-block  contact white-color contactus " id="contactus"><div class="container"><div class="row"><div class="col-sm-4 col-xs-6">
+<div id="c12" class="frame frame-default frame-type-header frame-layout-0"><header><div class="section-title"><h2 class="">
+				Contact us
+			</h2></div></header></div>
+
+
+<div id="c35" class="frame frame-default frame-type-html frame-layout-0"><div class="contact-detail"><p><em class="fa fa-map-marker"></em>Telecom House<br>8 KG 7 St, Kacyiru, Kigali<br>P.O. Box 6603 Kigali-Rwanda</p><p><a href="mailto:info@risa.gov.rw"><em class="fa fa-envelope"></em>info@risa.gov.rw</a></p></div></div>
+
+</div><div class="col-sm-8 col-xs-6">
+<div id="c36" class="frame frame-default frame-type-list frame-layout-0"><div class="tx-powermail"><div class="container-fluid"><form data-parsley-validate="data-parsley-validate" data-validate="html5" enctype="multipart/form-data" name="field" class="powermail_form powermail_form_1  form-horizontal " action="home/?tx_powermail_pi1%5Baction%5D=create&amp;tx_powermail_pi1%5Bcontroller%5D=Form&amp;cHash=7041128edda8bd0cfc6cbf04064d6830#c36" method="post"><div><input type="hidden" name="tx_powermail_pi1[__referrer][@extension]" value="Powermail" /><input type="hidden" name="tx_powermail_pi1[__referrer][@vendor]" value="In2code" /><input type="hidden" name="tx_powermail_pi1[__referrer][@controller]" value="Form" /><input type="hidden" name="tx_powermail_pi1[__referrer][@action]" value="form" /><input type="hidden" name="tx_powermail_pi1[__referrer][arguments]" value="YTowOnt9673d58c81e2256f8ea8d0bc483022835d8d0ab3a" /><input type="hidden" name="tx_powermail_pi1[__referrer][@request]" value="a:4:{s:10:&quot;@extension&quot;;s:9:&quot;Powermail&quot;;s:11:&quot;@controller&quot;;s:4:&quot;Form&quot;;s:7:&quot;@action&quot;;s:4:&quot;form&quot;;s:7:&quot;@vendor&quot;;s:7:&quot;In2code&quot;;}4aa9440275304fd06ada479a32e85485b0d6aa45" /><input type="hidden" name="tx_powermail_pi1[__trustedProperties]" value="a:2:{s:5:&quot;field&quot;;a:4:{s:4:&quot;name&quot;;i:1;s:6:&quot;e_mail&quot;;i:1;s:7:&quot;message&quot;;i:1;s:4:&quot;__hp&quot;;i:1;}s:4:&quot;mail&quot;;a:1:{s:4:&quot;form&quot;;i:1;}}d6eec5a870e97f4682a9a9baca9f7335e4ced25d" /></div><h3>Contact Us</h3><fieldset class="powermail_fieldset powermail_fieldset_1 nolabel"><div class="row"><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_name nolabel form-group col-md-6"><div class="col-sm-10"><input required="required" data-parsley-required-message="This field must be filled!" data-parsley-trigger="change" placeholder="Name" class="powermail_input form-control " id="powermail_field_name" type="text" name="tx_powermail_pi1[field][name]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_e_mail nolabel form-group col-md-6"><div class="col-sm-10"><input required="required" data-parsley-required-message="This field must be filled!" data-parsley-trigger="change" data-parsley-error-message="This is not a valid email address!" placeholder="E-Mail" class="powermail_input form-control " id="powermail_field_e_mail" type="email" name="tx_powermail_pi1[field][e_mail]" value="" /></div></div></div><div class="row"><div class="powermail_fieldwrap powermail_fieldwrap_type_textarea powermail_fieldwrap_message nolabel form-group col-md-6"><div class="col-sm-10"><textarea rows="5" cols="20" placeholder="Message" class="powermail_textarea form-control " id="powermail_field_message" name="tx_powermail_pi1[field][message]"></textarea></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_submit powermail_fieldwrap_sendmessage  form-group col-md-6"><div class="col-sm-10 col-sm-offset-2"><input class="btn btn-primary" type="submit" value="Send Message" /></div></div></div></fieldset><input class="powermail_form_uid" type="hidden" name="tx_powermail_pi1[mail][form]" value="1" /><div style="margin-left: -99999px; position: absolute;"><label for="powermail_hp_1">
+			Don&#039;t fill this field!
+		</label><input autocomplete="new-powermail-hp" id="powermail_hp_1" type="text" name="tx_powermail_pi1[field][__hp]" value="" /></div></form></div></div>
+</div>
+
+</div></div></div></section>
+		</div>
+		
+
+<footer id="footer" class="white-color">
+			<div class="scroll-top">
+				<div class="wow slideInUp">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="218px" height="66px" viewBox="-15.5 2 218 66" enable-background="new -15.5 2 218 66" xml:space="preserve">
+					<path fill="#1e215a" d="M-15.493,68c20.075,0,38.444-11.198,47.779-28.898C43.729,17,66.917,2,93.617,2
+						c26.701,0,49.888,15,61.431,37.102C164.384,56.802,182.752,68,202.828,68H-15.493z"/>
+					</svg>
+				</div>
+				<div class="scroll-arrow wow bounceInUp">
+					<em class="fa fa-angle-double-up"></em>
+				</div>
+			</div>
+			<div class="container">
+				<div class="footer-inner">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<div class="footer-menu">
+								<ul class="clearfix"><li><a href="footer-menu/news-and-events/">News and Events</a></li><li><a href="footer-menu/publications/">Publications</a></li><li><a href="footer-menu/guidelines/">Guidelines</a></li><li><a href="footer-menu/cyber-security-alerts/">Cyber Security Alerts</a></li><li><a href="footer-menu/careers/">Careers</a></li><li><a href="footer-menu/useful-links/">Useful links</a></li></ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="footer-right">
+								<div class="social-media">
+									<ul class="list-unstyled clearfix">
+										<li><a href="https://www.facebook.com/RwandaInformation/"><em class="fa fa-facebook-f"></em></a></li>
+										<li><a href="http://www.twitter.com/RISARwanda"><em class="fa fa-twitter"></em></a></li>
+										<li><a href="https://www.flickr.com/photos/162879905@N07/"><em class="fa fa-flickr"></em></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="copyright text-center">
+								<p>Copyright @2019 Rwanda Information Society Authority (RISA)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</footer>
+
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/jquery-1.12.4.min.js?1535467070" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/bootstrap.min.js?1535467086" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/wow.min.js?1535467064" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/slick.js?1535467064" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/jquery.easing.min.js?1535467066" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/jquery.fancybox.pack.js?1535467092" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/jquery.videobackground.js?1535467100" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/jquery.form-validator.min.js?1535467068" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/jquery.placeholder.min.js?1535467068" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/cssua.js?1535467078" type="text/javascript"></script>
+<script src="typo3conf/ext/site_config/Resources/Public/assets/js/custom.js?1535467070" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/jquery.datetimepicker.min.js?1525690080" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/parsley.min.js?1525690080" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Tabs.min.js?1525690080" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Form.min.js?1525690080" type="text/javascript"></script>
+
+
+
+</body>
+</html>
