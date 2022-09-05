@@ -34,8 +34,8 @@ for index,websites in df.iterrows():
         status = response.status_code
         df.at[index,'status_code'] = f'website is still on status code is {status}'
         # print(response.status_code)
-        if df.isnull() == True:
-            df.at[index,'status_code'] = f'website is still on status code is {status}'
+        # if df.isnull() == True:
+        #     df.at[index,'status_code'] = f'website is unkown status code is {status}'
             
         if response.status_code == 200:
             sendmail()
