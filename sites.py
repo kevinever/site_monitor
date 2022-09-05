@@ -34,6 +34,10 @@ for index,websites in df.iterrows():
         # print(response.status_code)
         if response.status_code == 200:
             sendmail()
+        while response.status_code != 200:
+            status = response.status_code
+            df.at[index,'status_code'] = f'website is still on status code is {status}'
+
 
         soup = bs4.BeautifulSoup(response.text,'html.parser')
         elems = soup.select('#gradient')
